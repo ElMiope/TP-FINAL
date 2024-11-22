@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Proyecto Final</title>
+</head>
+
+<body>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="https://www.facebook.com/EESTN5MDP">
+                <img src="img/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top me-2">
+                Proyecto Final
+            </a>
+        </div>
+    </nav>
+
+    <section class="landing text-center bg-light py-5">
+        <h1>Algunos acontecimientos destacables de los últimos 7 años</h1>
+    </section>
+
+    <div id="carouselExampleIndicators" class="carousel slide container-fluid mt-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/foto1.jpg" class="d-block w-100" alt="Salida a Globant">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Salida a Globant</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/foto2.png" class="d-block w-100" alt="Juego para la Expo2022">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Juego para la Expo2022</h5>
+                    <p>Desarrollado junto a Lautaro Galván y Máximo Digialleonardo</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="video-container">
+                    <video class="d-block mx-auto w-100" src="img/video.mp4" autoplay muted loop></video>
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Robot Arduino Siguelinea Expo2023</h5>
+                    <p>Ensamblado junto a Mateo Palotta y Matías Fanti</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <div class="container my-5">
+        <h3 class="text-center mb-4">Conocimientos adquiridos</h3>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Desarrollo Web
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Adquirí una sólida base en desarrollo web. Tanto Frontend como backend. Aprendí los fundamentos de HTML, CSS y
+                        JavaScript y algunos frameworks como Bootstrap, React y Node.js. Exploré conceptos como la responsividad, para
+                        asegurar que mis diseños se adapten a diferentes dispositivos.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Diversos lenguajes de programación
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Programé en varios lenguajes, algunos son: C++, Java, Javascript, PHP y Python. Desarrollando en cada uno de estos la
+                        programación orientada a objetos y la recursividad, más que nada en las olimpiadas. 
+                        Tambien pude desarrollar aplicaciones tanto de escritorio como moviles con Java.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Instalación de Redes
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Aprendí a cablear y configurar redes completas, incluyendo la instalación y configuración de dispositivos esenciales
+                        como routers y switches. Simularlas, mapearlas y auditarlas mediante softwares como Cisco Packet Tracer y NMap
+                        respectivamente. Este conocimiento me permite diseñar y mantener redes funcionales para diversos entornos.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Instalación y Configuración de Sistemas Operativos
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Aprendí a instalar, configurar y utilizar algunos sistemas operativos, Windows y Linux, en sus versiones comerciales
+                        y de servidor. Esto incluye la administración de grupos, usuarios y otras configuraciones avanzadas para un
+                        funcionamiento óptimo y aprovechar al máximo el hardware.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Hardware
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Pude especializarme en el armado y reparacion de PC, 
+                        llevando a la practica los conocimientos que adquirí, tanto en la escuela como por mi cuenta, 
+                        en la escuela y en las practicas profesionalizantes.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+      <h3 class="text-center mb-4">Usuarios que ingresaron</h3>
+      <ul id="user-list" class="list-group"></ul>
+    </div>
+    
+      <div class="modal fade" id="usernameModal" tabindex="-1" aria-labelledby="usernameModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="usernameModalLabel">Bienvenido</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Por favor, ingresa tu nombre de usuario:</p>
+                    <input type="text" id="username" class="form-control" placeholder="Nombre de usuario">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="saveUsername" class="btn btn-primary">Guardar</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    <footer>
+        <p>&copy; 2024 Proyecto Final. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
